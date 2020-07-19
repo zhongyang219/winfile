@@ -68,7 +68,7 @@ BEGIN
     MENUITEM    "分割(&L)",               IDM_SPLIT
     MENUITEM    SEPARATOR
     MENUITEM    "名称(&N)",                IDM_VNAME
-    MENUITEM    "全てのファイルの詳細て(&A)",    IDM_VDETAILS,   CHECKED
+    MENUITEM    "全てのファイルの詳細(&A)",    IDM_VDETAILS,   CHECKED
     MENUITEM    "一部のファイルの詳細(&P)...",  IDM_VOTHER
     MENUITEM    SEPARATOR
     MENUITEM "名前でソート(&S)",   IDM_BYNAME
@@ -144,7 +144,6 @@ BEGIN
 	MENUITEM    "Cmd シェルを起動(&L)...", IDM_STARTCMDSHELL
 	MENUITEM    "PowerShell を起動(&W)...", IDM_STARTPOWERSHELL
 	MENUITEM    "別のディレクトリーへ移動(&G)...", IDM_GOTODIR
-	MENUITEM	"ファイル マネージャーについて(&A)",			IDM_ABOUT
 	END
 END
 
